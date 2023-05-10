@@ -3,7 +3,7 @@ from datetime import datetime
 
 db = SQLAlchemy()
 
-
+# test 
 class User(db.Model):
     id = db.Column(db.Integer, unique=True, index=True, primary_key=True)
     uid = db.Column(db.String(128), nullable=False, unique=True, index=True)
