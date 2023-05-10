@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from ..models import db, User, Tweet, Comment, Like
+from ..models import db, User, Tweet
 import re
 
 
